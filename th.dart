@@ -67,7 +67,7 @@ void main() {
         if(person.atlist[i]==time)
 
         {
-          print(person.nameList[i] +''+ person.stackList[i] );
+          print(person.nameList[i] +'           '+ person.stackList[i] + '       ' + (person.atlist[i].toString()));
         }
       }
       
